@@ -1,0 +1,20 @@
+# Installation might take some time, please wait for a while
+
+pyrealsense2>=2.54.1     # Intel RealSense SDK
+numpy>=1.24.0           
+open3d>=0.17.0         
+opencv-python>=4.8.0
+scipy>=1.7.0
+pillow>=10.0.0         
+pyyaml>=6.0.1          
+setuptools>=68.0.0
+# mypy>=1.5.1
+pytest>=7.4.0          
+pytest-cov>=4.1.0
+pylint>=2.8.2
+flake8>=6.1.0          
+black>=23.7.0          
+# colorlog>=6.7.0
+matplotlib>=3.7.2      
+tqdm>=4.65.0
+plotly>=5.3.0

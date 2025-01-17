@@ -1,0 +1,85 @@
+# RealSense Camera Configuration
+
+# Stream Configuration
+stream_config:
+  # Color Stream Settings
+  color:
+    enabled: true
+    width: 1280
+    height: 720
+    fps: 30
+    format: 'bgr8'  # Format options: bgr8, rgb8, rgba8, bgra8
+
+  # Depth Stream Settings
+  depth:
+    enabled: true
+    width: 1280
+    height: 720
+    fps: 30
+    format: 'z16'   # Format options: z16, y8
+
+# Camera Settings
+camera_settings:
+  # Depth sensor settings
+  depth_units: 0.001     # Depth units in meters (0.001 = 1mm)
+  min_distance: 0.2      # Minimum depth distance in meters
+  max_distance: 10.0     # Maximum depth distance in meters
+
+  # Laser settings
+  laser_power: 360       # Laser power (0-360)
+  laser_enabled: true    # Enable/disable laser projector
+
+# Post-Processing Filters
+post_processing:
+  # Decimation filter (reduces depth scene complexity)
+  decimation:
+    enabled: true
+    magnitude: 2         # Scale down depth resolution by 2^magnitude
+
+  # Spatial filter (smooths depth noise)
+  spatial:
+    enabled: true
+    magnitude: 2         # Filter magnitude (1-5)
+    smooth_alpha: 0.5    # Spatial smooth alpha (0.25-1)
+    smooth_delta: 20     # Spatial smooth delta (1-50)
+    holes_fill: 1        # Holes filling mode (0-5)
+
+  # Temporal filter (reduces temporal noise)
+  temporal:
+    enabled: true
+    smooth_alpha: 0.4    # Temporal smooth alpha (0-1)
+    smooth_delta: 20     # Temporal smooth delta (1-100)
+    persistence: 3       # Filter persistence (1-8)
+
+  # Hole filling filter
+  hole_filling:
+    enabled: true
+    mode: 1             # Hole filling mode (0-2)
+
+# Data Capture Settings
+capture:
+  # Save formats
+  save_color: true      # Save color images
+  save_depth: true      # Save depth images
+  save_pointcloud: true # Save point cloud data
+
+  # Point cloud format options
+  pointcloud:
+    save_ply: true      # Save as PLY format
+    save_pcd: true      # Save as PCD format
+
+  # Compression settings
+  compression:
+    color_format: 'png'  # Image format for color frames
+    depth_format: 'png'  # Image format for depth frames
+
+  # Frame capture settings
+  buffer_size: 100      # Frame buffer size
+  max_frames: 0         # Maximum frames to capture (0 = unlimited)
+
+# Advanced Settings
+advanced:
+  enable_auto_exposure: true
+  enable_auto_white_balance: true
+  global_time_enabled: true
+  inter_cam_sync_mode: true  # Enable multi-camera synchronization

@@ -1,0 +1,55 @@
+2025-01-17 20:19:04,530 - Main - INFO - Discovered camera: {'serial': '419122271125', 'name': 'Intel RealSense D405', 'firmware_version': '5.16.0.1', 'usb_port': '3.2'}
+2025-01-17 20:19:04,859 - Main - INFO - Initialized camera 419122271125
+2025-01-17 20:19:04,859 - Main - INFO - Starting capture...
+2025-01-17 20:19:05,137 - Main - INFO - Started capture thread for camera 419122271125
+2025-01-17 20:19:05,137 - Main - INFO - Started capture for camera 419122271125
+2025-01-17 20:19:05,855 - Main - INFO - Camera 419122271125 - Saved depth frame 000000
+2025-01-17 20:19:05,871 - Main - INFO - Camera 419122271125 - Saved color frame 000000
+2025-01-17 20:19:06,604 - Main - INFO - Camera 419122271125 - Saved color frame 000001
+2025-01-17 20:19:06,635 - Main - INFO - Camera 419122271125 - Saved depth frame 000001
+2025-01-17 20:19:07,273 - Main - INFO - Camera 419122271125 - Saved color frame 000002
+2025-01-17 20:19:07,305 - Main - INFO - Camera 419122271125 - Saved depth frame 000002
+2025-01-17 20:19:08,005 - Main - INFO - Camera 419122271125 - Saved color frame 000003
+2025-01-17 20:19:08,037 - Main - INFO - Camera 419122271125 - Saved depth frame 000003
+2025-01-17 20:19:08,814 - Main - INFO - Camera 419122271125 - Saved color frame 000004
+2025-01-17 20:19:08,878 - Main - INFO - Camera 419122271125 - Saved depth frame 000004
+2025-01-17 20:19:09,577 - Main - INFO - Camera 419122271125 - Saved color frame 000005
+2025-01-17 20:19:09,627 - Main - INFO - Camera 419122271125 - Saved depth frame 000005
+2025-01-17 20:19:10,229 - Main - INFO - Camera 419122271125 - Saved depth frame 000006
+2025-01-17 20:19:10,309 - Main - INFO - Camera 419122271125 - Saved color frame 000006
+2025-01-17 20:19:10,931 - Main - INFO - Camera 419122271125 - Saved depth frame 000007
+2025-01-17 20:19:10,947 - Main - INFO - Camera 419122271125 - Saved color frame 000007
+2025-01-17 20:19:11,633 - Main - INFO - Camera 419122271125 - Saved color frame 000008
+2025-01-17 20:19:11,680 - Main - INFO - Camera 419122271125 - Saved depth frame 000008
+2025-01-17 20:19:12,349 - Main - INFO - Camera 419122271125 - Saved color frame 000009
+2025-01-17 20:19:12,412 - Main - INFO - Camera 419122271125 - Saved depth frame 000009
+2025-01-17 20:19:13,109 - Main - INFO - Camera 419122271125 - Saved color frame 000010
+2025-01-17 20:19:13,140 - Main - INFO - Camera 419122271125 - Saved depth frame 000010
+2025-01-17 20:19:13,841 - Main - INFO - Camera 419122271125 - Saved color frame 000011
+2025-01-17 20:19:13,857 - Main - INFO - Camera 419122271125 - Saved depth frame 000011
+2025-01-17 20:19:14,510 - Main - INFO - Camera 419122271125 - Saved color frame 000012
+2025-01-17 20:19:14,558 - Main - INFO - Camera 419122271125 - Saved depth frame 000012
+2025-01-17 20:19:15,290 - Main - INFO - Camera 419122271125 - Saved depth frame 000013
+2025-01-17 20:19:15,322 - Main - INFO - Camera 419122271125 - Saved color frame 000013
+2025-01-17 20:19:15,944 - Main - INFO - Camera 419122271125 - Saved color frame 000014
+2025-01-17 20:19:15,992 - Main - INFO - Camera 419122271125 - Saved depth frame 000014
+2025-01-17 20:19:16,631 - Main - INFO - Camera 419122271125 - Saved color frame 000015
+2025-01-17 20:19:16,647 - Main - INFO - Camera 419122271125 - Saved depth frame 000015
+2025-01-17 20:19:17,640 - Main - INFO - Camera 419122271125 - Saved point cloud 000000
+2025-01-17 20:19:18,064 - Main - INFO - Camera 419122271125 - Saved point cloud 000001
+2025-01-17 20:19:18,477 - Main - INFO - Camera 419122271125 - Saved point cloud 000002
+2025-01-17 20:19:18,880 - Main - INFO - Camera 419122271125 - Saved point cloud 000003
+2025-01-17 20:19:19,308 - Main - INFO - Camera 419122271125 - Saved point cloud 000004
+2025-01-17 20:19:19,715 - Main - INFO - Camera 419122271125 - Saved point cloud 000005
+2025-01-17 20:19:20,217 - Main - INFO - Camera 419122271125 - Saved point cloud 000006
+2025-01-17 20:19:20,617 - Main - INFO - Camera 419122271125 - Saved point cloud 000007
+2025-01-17 20:19:21,016 - Main - INFO - Camera 419122271125 - Saved point cloud 000008
+2025-01-17 20:19:21,438 - Main - INFO - Camera 419122271125 - Saved point cloud 000009
+2025-01-17 20:19:21,819 - Main - INFO - Camera 419122271125 - Saved point cloud 000010
+2025-01-17 20:19:22,202 - Main - INFO - Camera 419122271125 - Saved point cloud 000011
+2025-01-17 20:19:22,329 - Main - ERROR - Error during capture: Frame didn't arrive within 5000
+2025-01-17 20:19:22,633 - Main - INFO - Camera 419122271125 - Saved point cloud 000012
+2025-01-17 20:19:23,038 - Main - INFO - Camera 419122271125 - Saved point cloud 000013
+2025-01-17 20:19:23,437 - Main - INFO - Camera 419122271125 - Saved point cloud 000014
+2025-01-17 20:19:23,881 - Main - INFO - Camera 419122271125 - Saved point cloud 000015
+2025-01-17 20:19:23,903 - Main - INFO - Capture complete
